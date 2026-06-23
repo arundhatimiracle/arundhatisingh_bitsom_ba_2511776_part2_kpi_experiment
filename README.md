@@ -101,3 +101,23 @@ Created `analysis/hypothesis_test_notes.md` containing:
 The hypothesis is designed to evaluate whether the Treatment group improves paid conversion rate compared to the Control group.
 
 
+## Task 7: A/B Test Analysis
+
+Performed hypothesis testing on Paid Conversion Rate.
+
+Results:
+
+* Control Conversion Rate: 3.17%
+* Treatment Conversion Rate: 6.99%
+
+The Treatment group showed a meaningful improvement over the Control group.
+
+Evidence saved in:
+
+* screenshots/hypothesis_test_output.png
+
+Analysis documented in:
+
+* analysis/hypothesis_test_notes.md
+
+
