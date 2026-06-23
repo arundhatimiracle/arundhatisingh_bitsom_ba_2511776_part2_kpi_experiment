@@ -76,3 +76,12 @@ The dataset was reviewed before analysis.
 - Segment distribution appeared balanced across groups.
 
 All checks were documented in analysis/experiment_analysis.xlsx.
+
+
+# Task 5: Experiment Summary
+
+An experiment summary was prepared by comparing the Control and Treatment groups across key business metrics. The analysis included user count, landing page visit rate, trial start rate, onboarding completion rate, paid conversion rate, average revenue per user, average revenue per converted user, refund rate, support ticket rate, average engagement score, and average days to convert.
+
+The Treatment group showed stronger performance in user activation, trial starts, onboarding completion, paid conversions, revenue generation, and engagement score compared to the Control group. The average time required for users to convert was also slightly lower in the Treatment group, indicating a more effective onboarding experience.
+
+
