@@ -10,6 +10,14 @@ Before making a final recommendation, it is important to monitor possible risks 
 
 A recommendation should only be made after comparing the performance of the treatment group with the control group and confirming that the new campaign produces better results without causing negative effects on other important business metrics.
 
+# Dataset Description
+
+The dataset contains information from an onboarding and activation experiment conducted on new users. Each row represents a single user who participated in the experiment.
+
+The data includes user details such as experiment group (Control or Treatment), region, device type, traffic source, and plan type. It also contains outcome metrics such as activation status, trial completion, revenue, engagement score, retention indicators, refund information, and churn-related metrics.
+
+The dataset is used to compare the performance of the existing onboarding experience against the new onboarding campaign and to understand its impact on user activation and business outcomes.
+
 
 # Task 2: North Star Metric
 
@@ -32,3 +40,39 @@ A higher activation rate means more users are successfully reaching the value of
 ### What could go wrong if this metric is optimized blindly
 
 If the company focuses only on activation rate, users may be pushed through onboarding too quickly without a good experience. This could increase short-term activation while reducing user satisfaction, retention, or long-term revenue. For this reason, guardrail metrics should also be monitored.
+
+
+# Task 3: KPI Tree Summary
+
+## North Star Metric
+
+User Activation Rate
+
+## Supporting Metrics
+
+* Trial Completion Rate
+* Revenue per User
+* Engagement Score
+* Retention Rate
+
+## Guardrail Metrics
+
+* Refund Rate
+* Churn Rate
+* User Experience Metrics
+
+The KPI tree shows how the primary goal of improving user activation is connected to other business metrics. While activation rate is the main success metric, supporting metrics help measure overall business impact and guardrail metrics ensure that the experiment does not negatively affect users or business performance.
+
+
+# Task 4: Data Quality Checks
+
+The dataset was reviewed before analysis.
+
+- No duplicate user IDs were found.
+- No missing values were detected.
+- Control and Treatment groups were available for comparison.
+- Binary columns contained only valid values (0 and 1).
+- No significant revenue outliers required removal.
+- Segment distribution appeared balanced across groups.
+
+All checks were documented in analysis/experiment_analysis.xlsx.
