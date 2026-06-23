@@ -85,3 +85,19 @@ An experiment summary was prepared by comparing the Control and Treatment groups
 The Treatment group showed stronger performance in user activation, trial starts, onboarding completion, paid conversions, revenue generation, and engagement score compared to the Control group. The average time required for users to convert was also slightly lower in the Treatment group, indicating a more effective onboarding experience.
 
 
+## Task 6: Frame Hypotheses
+
+Created `analysis/hypothesis_test_notes.md` containing:
+
+* Null Hypothesis (H0)
+* Alternative Hypothesis (H1)
+* Test type (one-tailed)
+* Significance level (α = 0.05)
+* Metric selected: Paid Conversion Rate
+* Reason for selecting the metric
+* Interpretation logic for hypothesis testing
+* Business decision criteria based on statistical significance
+
+The hypothesis is designed to evaluate whether the Treatment group improves paid conversion rate compared to the Control group.
+
+
