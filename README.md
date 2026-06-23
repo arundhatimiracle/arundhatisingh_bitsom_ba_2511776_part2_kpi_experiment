@@ -121,3 +121,23 @@ Analysis documented in:
 * analysis/hypothesis_test_notes.md
 
 
+## Task 8: Guardrail Metrics
+
+Evaluated key guardrail metrics including:
+- Refund Rate
+- Support Ticket Rate
+- Engagement Score
+- Days to Convert
+
+Findings:
+- Refund rate remained stable.
+- Engagement score improved.
+- Days to convert decreased.
+- Support ticket rate increased and should be monitored.
+
+
+## Task 9: Recommendation
+
+Based on the experiment results, the Treatment group achieved a higher conversion rate (6.99%) than the Control group (3.17%).
+
+Recommendation: Launch the Treatment version while monitoring support ticket rates after rollout.
